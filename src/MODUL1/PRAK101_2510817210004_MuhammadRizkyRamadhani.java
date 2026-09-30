@@ -1,12 +1,14 @@
 package MODUL1;
 
+import java.util.Locale;
 import java.util.Scanner;
 
-public class PRAK101_251081721004_MuhammadRizkyRamadhani {
+public class PRAK101_2510817210004_MuhammadRizkyRamadhani {
 
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        sc.useLocale(Locale.US);
 
         String[] namaBulan = {"Januari", "Februari", "Maret", "April", "Mei", "Juni",
                 "Juli", "Agustus", "September", "Oktober", "November", "Desember"};
